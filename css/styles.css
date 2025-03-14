@@ -2,8 +2,7 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chango&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Quicksand:wght@300..700&display=swap');
 
 /* Styles for the body */
 
@@ -16,7 +15,7 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #A3B565;
+    background-color: #ffb625a8;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -38,7 +37,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #C4C3E3;
+	color: #a3b565;
 }
 
 .biography-details li, .skill-list li {
@@ -52,11 +51,7 @@ body {
 	flex-basis: 1.4em;
 }
 /* my own made classes*/
-.my-name-font {font-family: "Chango", sans-serif;}
-
-.color-of-languagebar {
-	color: rgb(155, 167, 231);
-}
+.my-name-font {font-family: "candal", sans-serif;}
 
 .different-languagebar {
 	background-color: #FDF8E2;
@@ -65,8 +60,4 @@ body {
 .myshyla {
 	border-color: #A3B565;
 	border-style: solid ;
-}
-
-#arrows {
-	color: #f1642E;
 }
