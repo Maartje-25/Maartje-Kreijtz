@@ -16,16 +16,15 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #EB7096;
+    background-color: #A3B565;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .resume-main {
-	background-color: ##EBBAC2;
+	background-color: #FDF8E2;
 }
-
 .resume-aside {
-	background-color: #EDB240;
+	background-color: #FCDD9D;
 }
 
 /* Styles for lists in the document */
@@ -39,7 +38,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #86a5f8;
+	color: #C4C3E3;
 }
 
 .biography-details li, .skill-list li {
@@ -60,6 +59,14 @@ body {
 }
 
 .different-languagebar {
-	background-color: hotpink; 
-	border: 1px solid rgb(233, 156, 235);
+	background-color: #FDF8E2;
+}
+
+.myshyla {
+	border-color: #A3B565;
+	border-style: solid ;
+}
+
+#arrows {
+	color: #f1642E;
 }
